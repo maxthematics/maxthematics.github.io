@@ -5,7 +5,8 @@ description: "Math and MathEducation | Research, Teaching, Outreach"
 lang: en
 url: "https://maxthematics.github.io"
 baseurl: ""
-theme: minima
+theme:  "alshedivat/al-folio"
 
-header_pages:
-  - about.md
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
