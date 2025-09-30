@@ -1,13 +1,10 @@
 ---
 layout: single
-title: "About"
+title: "About Max"
 permalink: /about/
 ---
 
-
-# About Me
-
-Dr. Max Hoffmann
+Dr. Max Hoffmann  
 Paderborn University
 
 max.hoffmann@math.upb.de
