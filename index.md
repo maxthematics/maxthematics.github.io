@@ -1,4 +1,5 @@
 ---
+title: Max's MathWorld
 ---
 
 # Hello World
