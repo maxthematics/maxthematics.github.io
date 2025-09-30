@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Max Hoffmann - Math(ematics|Education)+
+layout: single
+title: "Max Hoffmann - Math(ematics|Education)+"
 subtitle: "Research, Teaching, Outreach"
 ---
 
