@@ -1,4 +1,3 @@
-<!-- about.md -->
 ---
 title: About
 ---
