@@ -1,0 +1,8 @@
+#_config.yml
+
+title: "MaxTheMatics"
+description: "Research, Teaching, Outreach"
+lang: en
+url: "https://maxthematics.github.io"
+baseurl: ""
+theme: jekyll-theme-cayman
