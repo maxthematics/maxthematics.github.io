@@ -1,8 +1,11 @@
 #_config.yml
 
 title: "Max Hoffmann"
-description: "Math and Matheducation | Research, Teaching, Outreach"
+description: "Math and MathEducation | Research, Teaching, Outreach"
 lang: en
 url: "https://maxthematics.github.io"
 baseurl: ""
-theme: jekyll-theme-cayman
+theme: minima
+
+header_pages:
+  - about.md
