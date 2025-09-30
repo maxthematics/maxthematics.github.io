@@ -16,3 +16,10 @@ header_pages:
   - about.md
 
 minimal_mistakes_skin: default
+
+author:
+  name   : "Dr. Max Hoffmann"
+  #avatar : "/assets/images/profile.jpg"   # Bilddatei, die du ins Repo legst
+  bio    : "Math(ematics&#124;Education)+"
+  location: "Paderborn University"
+  email  : "max.hoffmann@math.upb.de"
