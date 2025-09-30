@@ -1,6 +1,6 @@
 <!-- about.md -->
 ---
-title: "About"
+title: About
 ---
 # About Me
 
