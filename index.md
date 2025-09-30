@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Dr. Max Hoffmann - Math(ematics|Education)+"
+title: "Max Hoffmann - Math(ematics&#124;Education)+"
 subtitle: "Research, Teaching, Outreach"
 ---
 
