@@ -7,4 +7,7 @@ permalink: /about/
 
 # About Me
 
-This is a placeholder page for the moment.
+Dr. Max Hoffmann
+Paderborn University
+
+max.hoffmann@math.upb.de
