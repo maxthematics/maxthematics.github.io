@@ -1,3 +1,18 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Research"
+    url: /research/
+  - title: "Projects"
+    url: /projects/
+  - title: "Outreach SFB"
+    url: /outreach-sfb/
+  - title: "Resources"
+    url: /resources/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Publications"
+    url: /publications/
+    children:
+      - title: "Books"
+        url: /books/
