@@ -6,7 +6,6 @@ lang: en
 url: "https://maxthematics.github.io"
 baseurl: ""
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "sunrise" 
 
 plugins:
   - jekyll-remote-theme
@@ -15,7 +14,7 @@ plugins:
 header_pages:
   - about.md
 
-minimal_mistakes_skin: default
+minimal_mistakes_skin: "sunrise" 
 
 author:
   name   : "Dr. Max Hoffmann"
