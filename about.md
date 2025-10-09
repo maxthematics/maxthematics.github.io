@@ -2,6 +2,7 @@
 layout: single
 title: "About Max"
 permalink: /about/
+author_profile: true
 ---
 
 Dr. Max Hoffmann  
