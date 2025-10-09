@@ -12,3 +12,12 @@ $code-background-color: #1b263b;
 
 @import "minimal-mistakes/skins/contrast";  // basis-skin
 @import "minimal-mistakes";                 // lädt das theme
+
+/* === Author avatar styling === */
+.author__avatar {
+  border: none;            /* removes the gray frame */
+  border-radius: 50%;      /* makes it a perfect circle */
+  box-shadow: none;        /* removes the subtle shadow */
+  margin-bottom: 0.75em;   /* gives a bit of space below the image */
+  overflow: hidden;        /* trims the image inside the circle */
+}
