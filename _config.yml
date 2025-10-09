@@ -18,7 +18,14 @@ minimal_mistakes_skin: "sunrise"
 
 author:
   name   : "Dr. Max Hoffmann"
-  #avatar : "/assets/images/profile.jpg"   # Bilddatei, die du ins Repo legst
+  avatar : "/assets/images/profile.jpg" 
   bio    : "Math(ematics&#124;Education)+"
   location: "Paderborn University"
   email  : "max.hoffmann@math.upb.de"
+  links:
+    - label: "University Profile"
+      icon: "fas fa-university"
+      url: "https://www.uni-paderborn.de/person/32202"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/maxthematics"
