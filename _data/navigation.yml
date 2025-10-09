@@ -1,8 +1,4 @@
 main:
-  - title: "About"
-    url: /about/
-  - title: "Research"
-    url: /research/
   - title: "Projects"
     url: /projects/
   - title: "Outreach SFB"
@@ -16,3 +12,7 @@ main:
     children:
       - title: "Books"
         url: /books/
+  - title: "News"
+    url: /news/
+  - title: "About"
+    url: /about/
