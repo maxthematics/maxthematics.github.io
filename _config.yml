@@ -14,6 +14,9 @@ plugins:
 header_pages:
   - about.md
 
+include:
+  - assets
+
 minimal_mistakes_skin: "darkblue" # default, air, aqua, contrast, dark, dirt, neon, sunrise 
 
 author:
