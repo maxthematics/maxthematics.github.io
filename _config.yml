@@ -14,7 +14,7 @@ plugins:
 header_pages:
   - about.md
 
-minimal_mistakes_skin: "sunrise" 
+minimal_mistakes_skin: "air" 
 
 author:
   name   : "Dr. Max Hoffmann"
