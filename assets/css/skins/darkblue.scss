@@ -2,6 +2,8 @@
 # front matter so Jekyll processes it
 ---
 
+/* ===== Custom Dark Blue Skin for Minimal Mistakes ===== */
+
 $background-color: #0d1b2a;
 $text-color: #e0e1dd;
 $muted-text-color: #778da9;
@@ -10,5 +12,34 @@ $brand-color: #1b263b;
 $border-color: #415a77;
 $code-background-color: #1b263b;
 
-@import "minimal-mistakes/skins/contrast";  // basis-skin
-@import "minimal-mistakes";                 // lädt das theme
+/* Accent color (warm orange) */
+$accent-color: #e67e22;
+
+/* Import base skin and theme */
+@import "minimal-mistakes/skins/contrast";  // base skin
+@import "minimal-mistakes";                 // main theme
+
+
+/* Buttons and interactive elements */
+.btn, .btn--primary {
+  background-color: $accent-color;
+  border-color: darken($accent-color, 5%);
+  color: #fff;
+
+  &:hover, &:focus {
+    background-color: lighten($accent-color, 5%);
+    border-color: lighten($accent-color, 10%);
+    color: #fff;
+  }
+}
+
+/* Hover effect for links */
+a:hover {
+  color: $accent-color;
+}
+
+/* Inline code and code blocks */
+code, pre {
+  background-color: $brand-color;
+  color: #f4a261;
+}
