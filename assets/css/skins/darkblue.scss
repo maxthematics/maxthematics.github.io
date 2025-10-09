@@ -43,3 +43,11 @@ code, pre {
   background-color: $brand-color;
   color: #f4a261;
 }
+
+/* === Author avatar styling === */
+.author__avatar {
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+  margin-bottom: 0.75em;
+}
