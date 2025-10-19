@@ -5,26 +5,43 @@
 @import "minimal-mistakes/skins/dark";
 @import "minimal-mistakes";
 
-/* Round, frameless, actually clipped avatar */
-.sidebar .author__avatar,
-.author__avatar {
-  width: 180px !important;
-  height: 180px !important;
-  border: none !important;
-  border-radius: 50% !important;
-  overflow: hidden !important;
-  display: flex !important;
+/* === Avatar: elegant override, no !important === */
+
+/* Container quadratisch + rund, Bild sauber beschnitten */
+.sidebar .author__avatar.author__avatar,
+.page .author__avatar.author__avatar {
+  width: 180px;
+  height: 180px;
+  border: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 1em;
-  box-shadow: none !important;
+  box-shadow: none;
+  flex: 0 0 auto;
 }
 
-.sidebar .author__avatar img,
-.author__avatar img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;   /* zentriert & beschneidet */
-  border-radius: 50% !important;
+/* Bild selbst: keine Max-Breite, kein Padding, keine Ränder */
+.sidebar .author__avatar.author__avatar img,
+.page .author__avatar.author__avatar img {
+  width: 100%;
+  height: 100%;
+  max-width: none;      /* überschreibt das 110px-Limit des Themes */
+  object-fit: cover;    /* zentriert & beschneidet statt zu quetschen */
+  border: 0;
+  padding: 0;
+  border-radius: 50%;
   display: block;
+}
+
+/* Gleiches Breakpoint wie das Theme, damit dortige Regeln sauber überschrieben werden */
+@media (min-width: 64em) {
+  .sidebar .author__avatar.author__avatar img,
+  .page .author__avatar.author__avatar img {
+    padding: 0;         /* killt Theme-Padding ab 64em */
+    border: 0;          /* killt 1px-Rand ab 64em */
+    max-width: none;    /* killt erneute Max-Breite */
+  }
 }
