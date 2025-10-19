@@ -14,7 +14,7 @@ plugins:
 header_pages:
   - about.md
 
-minimal_mistakes_skin: "air" # default, air, aqua, contrast, dark, dirt, neon, sunrise 
+minimal_mistakes_skin: "dark" # default, air, aqua, contrast, dark, dirt, neon, sunrise 
 
 author:
   name   : "Dr. Max Hoffmann"
