@@ -45,3 +45,22 @@
     max-width: none;    /* killt erneute Max-Breite */
   }
 }
+
+/* === Center avatar more naturally in sidebar === */
+.sidebar .author__avatar {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;      /* vertical center */
+  padding: 0;               /* remove theme's default side padding */
+  margin: 0 auto 1em;       /* true center alignment */
+}
+
+.sidebar .author__avatar img {
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: 50% 45%;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
