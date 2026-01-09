@@ -16,23 +16,30 @@ layout: single
     </div>
   </header>
 
-  <div class="illustration__content">
-    {{ content }}
-  </div>
-
   {% if page.applet_url %}
   <div class="illustration__applet">
     {% include cindyjs-embed.html url=page.applet_url height=page.applet_height %}
   </div>
   {% endif %}
 
-  {% if page.source_url %}
-  <footer class="illustration__footer">
-    <a href="{{ page.source_url }}" class="illustration__source" target="_blank" rel="noopener">
-      View source on GitHub
-    </a>
-  </footer>
+  <div class="illustration__content">
+    {{ content }}
+  </div>
+
+  {{% if page.applet_url or page.source_url %}
+<footer class="illustration__footer">
+  {% if page.applet_url %}
+  <a href="{{ page.applet_url }}" class="illustration__standalone" target="_blank" rel="noopener">
+    Open standalone
+  </a>
   {% endif %}
+  {% if page.source_url %}
+  <a href="{{ page.source_url }}" class="illustration__source" target="_blank" rel="noopener">
+    View source on GitHub
+  </a>
+  {% endif %}
+</footer>
+{% endif %}
 </article>
 
 <!-- KaTeX -->

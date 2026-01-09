@@ -269,3 +269,22 @@
   display: block;
   height: 700px;
 }
+
+.illustration__standalone {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #4db8b8;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: #fff;
+  }
+  
+  &::before {
+    content: "⛶";
+  }
+}
