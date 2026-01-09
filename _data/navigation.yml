@@ -1,18 +1,18 @@
 main:
-  - title: "News"
-    url: /news/
-  - title: "Projects"
-    url: /projects/
-  - title: "Outreach SFB-TRR 358"
-    url: /outreach-sfb/
-  - title: "Resources"
-    url: /resources/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "Publications"
-    url: /publications/
-    children:
-      - title: "Books"
-        url: /books/
+ # - title: "News"
+ #   url: /news/
+ # - title: "Projects"
+ #   url: /projects/
+ # - title: "Outreach SFB-TRR 358"
+ #   url: /outreach-sfb/
+ # - title: "Resources"
+ #   url: /resources/
+ # - title: "Teaching"
+ #   url: /teaching/
+ # - title: "Publications"
+ #   url: /publications/
+ #   children:
+ #     - title: "Books"
+ #       url: /books/
   - title: "About"
     url: /about/
