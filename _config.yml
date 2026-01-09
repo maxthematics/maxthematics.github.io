@@ -21,7 +21,7 @@ author:
   avatar : "/assets/images/profile.png" 
   bio    : "Math(ematics&#124;Education)+"
   location: "Paderborn University"
-  email  : "max.hoffmann@math.upb.de"
+  email  : "max.hoffmann@math.uni-paderborn.de"
   links:
     - label: "University Profile"
       icon: "fas fa-university"
