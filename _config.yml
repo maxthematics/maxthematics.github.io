@@ -32,3 +32,18 @@ author:
 
 include:
   - assets
+
+# Collections
+collections:
+  illustrations:
+    output: true
+    permalink: /illustrating-math/:slug/
+
+# Collection defaults
+defaults:
+  - scope:
+      path: ""
+      type: illustrations
+    values:
+      layout: illustration
+      author_profile: true
