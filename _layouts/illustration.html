@@ -26,26 +26,25 @@ layout: single
     {{ content }}
   </div>
 
-  {{% if page.applet_url or page.source_url %}
-<footer class="illustration__footer">
-  {% if page.applet_url %}
-  <a href="{{ page.applet_url }}" class="illustration__standalone" target="_blank" rel="noopener">
-    Open standalone
-  </a>
+  {% if page.applet_url or page.source_url %}
+  <footer class="illustration__footer">
+    {% if page.applet_url %}
+    <a href="{{ page.applet_url }}" class="illustration__standalone" target="_blank" rel="noopener">
+      Open standalone
+    </a>
+    {% endif %}
+    {% if page.source_url %}
+    <a href="{{ page.source_url }}" class="illustration__source" target="_blank" rel="noopener">
+      View source on GitHub
+    </a>
+    {% endif %}
+  </footer>
   {% endif %}
-  {% if page.source_url %}
-  <a href="{{ page.source_url }}" class="illustration__source" target="_blank" rel="noopener">
-    View source on GitHub
-  </a>
-  {% endif %}
-</footer>
-{% endif %}
 </article>
 
-<!-- KaTeX -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-<<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
     onload="renderMathInElement(document.body, {
       delimiters: [
         {left: '$$', right: '$$', display: true},
