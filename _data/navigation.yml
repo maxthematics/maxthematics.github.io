@@ -5,8 +5,10 @@ main:
  #   url: /projects/
  # - title: "Outreach SFB-TRR 358"
  #   url: /outreach-sfb/
- # - title: "Resources"
- #   url: /resources/
+  - title: "#illustratingMath"
+    url: /illustrating-math/
+ # - title: "Educational Resources"
+ #   url: /educational-resources/
  # - title: "Teaching"
  #   url: /teaching/
  # - title: "Publications"
