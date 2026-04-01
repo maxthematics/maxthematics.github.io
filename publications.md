@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can find my publications sorted by type or in chronological order below. Both lists are generated automatically from my BibTeX database.
+You can find my publications sorted by type or in chronological order below. 
 
 <style>
   .pub-tabs input[type="radio"] { display: none; }
@@ -43,12 +43,12 @@ You can find my publications sorted by type or in chronological order below. Bot
   <div class="pub-tab-content" id="content-type">
     <iframe src="{{ '/assets/publications/publicationsHoffmann.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
     <br>
-    <a href="{{ '/assets/publications/publicationsHoffmann.pdf' | relative_url }}" class="btn btn--primary" download>Download (by type)</a>
+    <a href="{{ '/assets/publications/publicationsHoffmann.pdf' | relative_url }}" class="btn btn--primary" download>Download (pdf)</a>
   </div>
 
   <div class="pub-tab-content" id="content-chrono">
     <iframe src="{{ '/assets/publications/publicationsHoffmann_chrono.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
     <br>
-    <a href="{{ '/assets/publications/publicationsHoffmann_chrono.pdf' | relative_url }}" class="btn btn--primary" download>Download (chronological)</a>
+    <a href="{{ '/assets/publications/publicationsHoffmann_chrono.pdf' | relative_url }}" class="btn btn--primary" download>Download (pdf)</a>
   </div>
 </div>

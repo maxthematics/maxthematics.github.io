@@ -19,4 +19,4 @@ I studied mathematics and computer science for secondary education at Paderborn 
 
 ## Contact
 
-Best way to reach me: [email](mailto:max.hoffmann@math.upb.de). You can also find me on [GitHub](https://github.com/maxthematics) or check my [university profile](https://www.uni-paderborn.de/person/32202).
+Best way to reach me: [email](mailto:max.hoffmann@math.uni-paderborn.de). You can also find me on [GitHub](https://github.com/maxthematics) or check my [university profile](https://www.uni-paderborn.de/person/32202).
