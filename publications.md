@@ -21,9 +21,17 @@ You can find my publications sorted by type or in chronological order below. Bot
     border-bottom-color: #00bcd4;
     color: #fff;
   }
-  .pub-tab-content { display: none; margin-top: 1em; }
+  .pub-tab-content {
+    height: 0;
+    overflow: hidden;
+    margin-top: 0;
+  }
   #tab-type:checked ~ #content-type,
-  #tab-chrono:checked ~ #content-chrono { display: block; }
+  #tab-chrono:checked ~ #content-chrono {
+    height: auto;
+    overflow: visible;
+    margin-top: 1em;
+  }
 </style>
 
 <div class="pub-tabs">
