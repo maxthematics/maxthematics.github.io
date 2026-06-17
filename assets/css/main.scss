@@ -72,22 +72,22 @@
    ========================================================================== */
 
 .illustration-gallery {
-  column-count: 3;
-  column-gap: 1.5rem;
-  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+
   @media (max-width: 1024px) {
-    column-count: 2;
+    grid-template-columns: repeat(2, 1fr);
   }
-  
+
   @media (max-width: 600px) {
-    column-count: 1;
+    grid-template-columns: 1fr;
   }
 }
 
 .illustration-card {
   display: block;
-  break-inside: avoid;
-  margin-bottom: 1.5rem;
   background: #1a1a1a;
   border-radius: 8px;
   overflow: hidden;
