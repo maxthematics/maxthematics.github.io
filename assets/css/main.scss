@@ -75,7 +75,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  align-items: start;
+  align-items: stretch;
 
   @media (max-width: 1024px) {
     grid-template-columns: repeat(2, 1fr);
@@ -87,7 +87,8 @@
 }
 
 .illustration-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background: #1a1a1a;
   border-radius: 8px;
   overflow: hidden;
@@ -102,8 +103,9 @@
 
 .illustration-card__image {
   width: 100%;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
+  flex-shrink: 0;
 
   img {
     width: 100%;
