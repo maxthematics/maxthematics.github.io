@@ -7,8 +7,8 @@ main:
  #   url: /outreach-sfb/
   - title: "#illustratingMath"
     url: /illustrating-math/
- # - title: "Educational Resources"
- #   url: /educational-resources/
+  - title: "Educational Resources"
+    url: /educational-resources/
  # - title: "Teaching"
  #   url: /teaching/
   - title: "Publications"
