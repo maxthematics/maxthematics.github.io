@@ -5,11 +5,11 @@ permalink: /about/
 author_profile: true
 ---
 
-I work at the intersection of mathematics and mathematics education—currently as *Akademischer Rat* (non-permanent) at Paderborn University's Institute of Mathematics.
+I work at the intersection of mathematics and mathematics education—currently as *Akademischer Rat* (permanent) at Paderborn University's Institute of Mathematics.There, I am specifically responsible for the area of science communication in mathematics.
 
 ## What I do
 
-In my work, I connect **mathematics**, **mathematics education**, and **illustration**—from school classrooms to university courses to public outreach. My main areas are **geometry**, **mathematics teacher education**, and the intersection of **mathematics and computer science**.
+In my work, I connect **mathematics**, **mathematics education**, and **science communication**—from school classrooms to university courses to public outreach.
 
 Since 2025, I serve as Principal Investigator for public outreach in the [SFB-TRR 358](https://trr358.math.uni-bielefeld.de/).
 
